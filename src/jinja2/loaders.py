@@ -271,7 +271,7 @@ class PackageLoader(BaseLoader):
     def __init__(
         self,
         package_name: str,
-        package_path: "str" = "templates",
+        package_path: str = "templates",
         encoding: str = "utf-8",
     ) -> None:
         package_path = os.path.normpath(package_path).rstrip(os.sep)
